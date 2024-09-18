@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace PPTT.Pages.Vistas
 {
-    //[Authorize]
+    //[Authorize(Policy = "Admin")]
     public class EmpleadosModel : PageModel
     {
         [BindProperty]
